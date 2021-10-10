@@ -1,11 +1,11 @@
 # Node package
 
-[![version](https://img.shields.io/npm/v/@SWalls/node-package-template.svg)](https://www.npmjs.com/package/@SWalls/node-package-template)
+[![version](https://img.shields.io/npm/v/@swalls/node-package-template.svg)](https://www.npmjs.com/package/@swalls/node-package-template)
 [![build status](https://travis-ci.org/SWalls/node-package-template.svg?branch=master)](https://travis-ci.org/SWalls/node-package-template)
 [![coverage status](https://coveralls.io/repos/github/SWalls/node-package-template/badge.svg?branch=master)](https://coveralls.io/github/SWalls/node-package-template?branch=master)
 [![dependency status](https://david-dm.org/SWalls/node-package-template.svg)](https://david-dm.org/SWalls/node-package-template)
-[![minzipped size](https://img.shields.io/bundlephobia/minzip/@SWalls/node-package-template.svg)](https://www.npmjs.com/package/@SWalls/node-package-template)
-[![downloads](https://img.shields.io/npm/dt/@SWalls/node-package-template.svg)](https://www.npmjs.com/package/@SWalls/node-package-template)
+[![minzipped size](https://img.shields.io/bundlephobia/minzip/@swalls/node-package-template.svg)](https://www.npmjs.com/package/@swalls/node-package-template)
+[![downloads](https://img.shields.io/npm/dt/@swalls/node-package-template.svg)](https://www.npmjs.com/package/@swalls/node-package-template)
 [![GitHub Action: Push](https://github.com/SWalls/node-package-template/actions/workflows/push.yml/badge.svg)](https://github.com/SWalls/node-package-template/actions/workflows/push.yml)
 
 Description 
@@ -51,7 +51,7 @@ $ npm install
 ## Use
 
 ```typescript
-import packageName from '@SWalls/node-package-template';
+import packageName from '@swalls/node-package-template';
 
 packageName();
 ```

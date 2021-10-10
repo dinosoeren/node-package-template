@@ -1,9 +1,9 @@
 import App from './index';
 
-describe('@SWalls/node-package-template', () => {
+describe('@swalls/node-package-template', () => {
   describe('App', () => {
     it('returns placeholder name', () => {
-      expect(App()).toBe('@SWalls/node-package-template');
+      expect(App()).toBe('@swalls/node-package-template');
     });
   });
 });
