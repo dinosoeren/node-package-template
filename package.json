@@ -3,7 +3,7 @@
   "version": "1.0.0-alpha",
   "author": "Soeren Walls <me@soerenwalls.com>",
   "description": "DESCRIPTION",
-  "homepage": "https://www.npmjs.com/package/node-package-template",
+  "homepage": "https://www.npmjs.com/package/@swalls/node-package-template",
   "license": "MIT",
   "main": "./dist/cjs/index.cjs",
   "module": "./dist/esm/index.js",

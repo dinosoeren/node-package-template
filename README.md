@@ -103,6 +103,12 @@ $ npm run lint:fix
 - If you use VIM, run `yarn sdks vim`.
 - If you use Visual Studio Code, run `yarn sdks vscode`.
 
+## Support
+
+This free open-source software was made with :heart: by a real person - me! If you found this tool useful, please consider tipping any amount you feel is appropriate for the value you received. :)
+
+- Give the dev a :moneybag: tip here: [solarbabies.tips](https://solarbabies.tips)
+
 ## License
 
 [MIT](https://github.com/SWalls/node-package-template/blob/master/LICENSE)
