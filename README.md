@@ -1,32 +1,113 @@
 # Node package
 
-[![version](https://img.shields.io/npm/v/PACKAGE-NAME.svg)](https://www.npmjs.com/package/PACKAGE-NAME)
-[![minzipped size](https://img.shields.io/bundlephobia/minzip/PACKAGE-NAME.svg)](https://www.npmjs.com/package/PACKAGE-NAME)
-[![downloads](https://img.shields.io/npm/dt/PACKAGE-NAME.svg)](https://www.npmjs.com/package/PACKAGE-NAME)
-[![GitHub Action: Push](https://github.com/CharlesStover/PACKAGE-NAME/actions/workflows/push.yml/badge.svg)](https://github.com/CharlesStover/PACKAGE-NAME/actions/workflows/push.yml)
+[![version](https://img.shields.io/npm/v/@SWalls/node-package-template.svg)](https://www.npmjs.com/package/@SWalls/node-package-template)
+[![build status](https://travis-ci.org/SWalls/node-package-template.svg?branch=master)](https://travis-ci.org/SWalls/node-package-template)
+[![coverage status](https://coveralls.io/repos/github/SWalls/node-package-template/badge.svg?branch=master)](https://coveralls.io/github/SWalls/node-package-template?branch=master)
+[![dependency status](https://david-dm.org/SWalls/node-package-template.svg)](https://david-dm.org/SWalls/node-package-template)
+[![minzipped size](https://img.shields.io/bundlephobia/minzip/@SWalls/node-package-template.svg)](https://www.npmjs.com/package/@SWalls/node-package-template)
+[![downloads](https://img.shields.io/npm/dt/@SWalls/node-package-template.svg)](https://www.npmjs.com/package/@SWalls/node-package-template)
+[![GitHub Action: Push](https://github.com/SWalls/node-package-template/actions/workflows/push.yml/badge.svg)](https://github.com/SWalls/node-package-template/actions/workflows/push.yml)
 
-Description
+Description 
 
 ## Install
 
-- `npm install package-name` or
-- `yarn add package-name`
+### Use npm or yarn
+
+- `npm install node-package-template` or
+- `yarn add node-package-template`
+
+### From sources
+
+Clone repository with Git:
+
+```sh
+$ git clone https://github.com/SWalls/node-package-template.git
+$ cd node-package-template
+```
+
+Or download repository with ZIP:
+
+```sh
+$ curl -LO https://github.com/SWalls/node-package-template/archive/master.zip
+$ unzip master.zip
+$ rm master.zip
+$ cd node-package-template
+```
+
+Reinitialize Git repository:
+
+```sh
+$ rm -rf .git
+$ git init
+```
+
+Install package dependencies:
+
+```sh
+$ npm install
+```
 
 ## Use
 
-```javascript
-import packageName from 'package-name';
+```typescript
+import packageName from '@SWalls/node-package-template';
 
 packageName();
 ```
 
-## API
 
-API
+## Test
 
-## Contributing
+Run tests:
+
+```sh
+$ npm test
+```
+
+Run tests in watch mode:
+
+```sh
+$ npm run test:watch
+```
+
+Run tests with coverage:
+
+```sh
+$ npm run test:coverage
+```
+
+View coverage in browser:
+
+```sh
+$ npm run test:coverage
+$ open coverage/index.html
+```
+
+Lint files:
+
+```sh
+$ npm run lint
+```
+
+Fix lint errors:
+
+```sh
+$ npm run lint:fix
+```
+
+## Contribute
 
 - `yarn set version latest`
 - `yarn up "*" "@*/*"`
 - If you use VIM, run `yarn sdks vim`.
 - If you use Visual Studio Code, run `yarn sdks vscode`.
+
+## License
+
+[MIT](https://github.com/SWalls/node-package-template/blob/master/LICENSE)
+
+*Template created by combining:*
+
+- https://github.com/CharlesStover/node-package-template
+- https://github.com/remarkablemark/npm-package-template

@@ -15,7 +15,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-  eslint:
+  lint:
     needs: install
     runs-on: ubuntu-latest
     steps:
@@ -30,9 +30,9 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Lint
-        run: yarn eslint
+        run: yarn lint
 
-  jest:
+  test:
     needs: install
     runs-on: ubuntu-latest
     steps:
@@ -47,7 +47,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Test
-        run: yarn jest
+        run: yarn test
 
   rollup:
     needs: install
@@ -75,7 +75,7 @@ jobs:
             types
 
   publish:
-    needs: [eslint, jest, rollup]
+    needs: [lint, test, rollup]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
