@@ -14,8 +14,8 @@ Description
 
 ### Use npm or yarn
 
-- `npm install node-package-template` or
-- `yarn add node-package-template`
+- `npm install @swalls/node-package-template` or
+- `yarn add @swalls/node-package-template`
 
 ### From sources
 
