@@ -1,3 +1,3 @@
-export default function App(): void {
-  return;
+export default function App(): string {
+  return '@SWalls/node-package-template';
 }
