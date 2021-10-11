@@ -1,7 +1,7 @@
 # Node package
 
 [![version](https://img.shields.io/npm/v/@swalls/node-package-template.svg)](https://www.npmjs.com/package/@swalls/node-package-template)
-[![build status](https://travis-ci.org/SWalls/node-package-template.svg?branch=master)](https://travis-ci.org/SWalls/node-package-template)
+[![build status](https://app.travis-ci.com/SWalls/node-package-template.svg?branch=main)](https://app.travis-ci.com/SWalls/node-package-template)
 [![coverage status](https://coveralls.io/repos/github/SWalls/node-package-template/badge.svg?branch=master)](https://coveralls.io/github/SWalls/node-package-template?branch=master)
 [![dependency status](https://david-dm.org/SWalls/node-package-template.svg)](https://david-dm.org/SWalls/node-package-template)
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/@swalls/node-package-template.svg)](https://www.npmjs.com/package/@swalls/node-package-template)
