@@ -3,7 +3,7 @@
 [![version](https://img.shields.io/npm/v/@swalls/node-package-template.svg)](https://www.npmjs.com/package/@swalls/node-package-template)
 [![build status](https://app.travis-ci.com/SWalls/node-package-template.svg?branch=main)](https://app.travis-ci.com/SWalls/node-package-template)
 [![coverage status](https://coveralls.io/repos/github/SWalls/node-package-template/badge.svg?branch=master)](https://coveralls.io/github/SWalls/node-package-template?branch=master)
-[![dependency status](https://flat.badgen.net/dependabot/SWalls/node-package-template?icon=dependabot)](https://flat.badgen.net/dependabot/SWalls/node-package-template?icon=dependabot)
+[![dependency status](https://badgen.net/dependabot/SWalls/node-package-template?icon=dependabot)](https://badgen.net/dependabot/SWalls/node-package-template?icon=dependabot)
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/@swalls/node-package-template.svg)](https://www.npmjs.com/package/@swalls/node-package-template)
 [![downloads](https://img.shields.io/npm/dt/@swalls/node-package-template.svg)](https://www.npmjs.com/package/@swalls/node-package-template)
 [![GitHub Action: Push](https://github.com/SWalls/node-package-template/actions/workflows/push.yml/badge.svg)](https://github.com/SWalls/node-package-template/actions/workflows/push.yml)
