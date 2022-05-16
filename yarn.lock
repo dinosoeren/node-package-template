@@ -312,9 +312,9 @@
   dependencies:
     conventional-changelog-conventionalcommits "^4.3.1"
 
-"@commitlint/config-conventional@^11.0.0":
-  version "11.0.0"
-  resolved "https://registry.npmjs.org/@commitlint/config-conventional/-/config-conventional-11.0.0.tgz"
+"@commitlint/config-conventional@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-17.0.0.tgz#7dc2ef3ac1a11ff62bcd333343cc8921edd1646a"
   dependencies:
     conventional-changelog-conventionalcommits "^4.3.1"
 
