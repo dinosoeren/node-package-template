@@ -1,14 +1,14 @@
 # Node package
 
 [![version](https://img.shields.io/npm/v/@swalls/node-package-template.svg)](https://www.npmjs.com/package/@swalls/node-package-template)
-[![build status](https://app.travis-ci.com/SWalls/node-package-template.svg?branch=main)](https://app.travis-ci.com/SWalls/node-package-template)
-[![coverage status](https://coveralls.io/repos/github/SWalls/node-package-template/badge.svg?branch=master)](https://coveralls.io/github/SWalls/node-package-template?branch=master)
-[![dependency status](https://badgen.net/dependabot/SWalls/node-package-template?icon=dependabot)](https://badgen.net/dependabot/SWalls/node-package-template?icon=dependabot)
+[![build status](https://app.travis-ci.com/DinoSoeren/node-package-template.svg?branch=main)](https://app.travis-ci.com/DinoSoeren/node-package-template)
+[![coverage status](https://coveralls.io/repos/github/DinoSoeren/node-package-template/badge.svg?branch=master)](https://coveralls.io/github/DinoSoeren/node-package-template?branch=master)
+[![dependency status](https://badgen.net/dependabot/DinoSoeren/node-package-template?icon=dependabot)](https://badgen.net/dependabot/DinoSoeren/node-package-template?icon=dependabot)
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/@swalls/node-package-template.svg)](https://www.npmjs.com/package/@swalls/node-package-template)
 [![downloads](https://img.shields.io/npm/dt/@swalls/node-package-template.svg)](https://www.npmjs.com/package/@swalls/node-package-template)
-[![GitHub Action: Push](https://github.com/SWalls/node-package-template/actions/workflows/push.yml/badge.svg)](https://github.com/SWalls/node-package-template/actions/workflows/push.yml)
+[![GitHub Action: Push](https://github.com/DinoSoeren/node-package-template/actions/workflows/push.yml/badge.svg)](https://github.com/DinoSoeren/node-package-template/actions/workflows/push.yml)
 
-Description 
+Description
 
 ## Install
 
@@ -22,14 +22,14 @@ Description
 Clone repository with Git:
 
 ```sh
-$ git clone https://github.com/SWalls/node-package-template.git
+$ git clone https://github.com/DinoSoeren/node-package-template.git
 $ cd node-package-template
 ```
 
 Or download repository with ZIP:
 
 ```sh
-$ curl -LO https://github.com/SWalls/node-package-template/archive/master.zip
+$ curl -LO https://github.com/DinoSoeren/node-package-template/archive/master.zip
 $ unzip master.zip
 $ rm master.zip
 $ cd node-package-template
@@ -111,7 +111,7 @@ This free open-source software was made with :heart: by a real person - me! If y
 
 ## License
 
-[MIT](https://github.com/SWalls/node-package-template/blob/master/LICENSE)
+[MIT](https://github.com/DinoSoeren/node-package-template/blob/master/LICENSE)
 
 *Template created by combining:*
 
