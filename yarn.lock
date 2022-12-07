@@ -1098,16 +1098,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-url@npm:^6.0.0":
-  version: 6.1.0
-  resolution: "@rollup/plugin-url@npm:6.1.0"
+"@rollup/plugin-url@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "@rollup/plugin-url@npm:8.0.1"
   dependencies:
-    "@rollup/pluginutils": ^3.1.0
+    "@rollup/pluginutils": ^5.0.1
     make-dir: ^3.1.0
-    mime: ^2.4.6
+    mime: ^3.0.0
   peerDependencies:
-    rollup: ^1.20.0||^2.0.0
-  checksum: f40d4ee41c121b0d46d6d0c62bb321031dd189a6e5c5d6256c4d68110ea4d3ecd2657fae32b3888a8118acf3dcc33d13969d8389c72e69a6313462ed019043d4
+    rollup: ^1.20.0||^2.0.0||^3.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+  checksum: 25a16622feeec63d958117f7ab65b3a4f72bab4ab86a4c7d5447ec646e88b5ac47186e344a2fdf179e1c12b5a9e76b8edbf568f5f76f7c25e0168ddd6374501e
   languageName: node
   linkType: hard
 
@@ -1184,7 +1187,7 @@ __metadata:
     "@rollup/plugin-commonjs": ^23.0.3
     "@rollup/plugin-json": ^4.0.0
     "@rollup/plugin-node-resolve": ^13.0.0
-    "@rollup/plugin-url": ^6.0.0
+    "@rollup/plugin-url": ^8.0.1
     "@testing-library/react": ^12.0.0
     "@testing-library/react-hooks": ^8.0.1
     "@types/jest": ^27.0.0
@@ -6708,12 +6711,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mime@npm:^2.4.6":
-  version: 2.6.0
-  resolution: "mime@npm:2.6.0"
+"mime@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "mime@npm:3.0.0"
   bin:
     mime: cli.js
-  checksum: 1497ba7b9f6960694268a557eae24b743fd2923da46ec392b042469f4b901721ba0adcf8b0d3c2677839d0e243b209d76e5edcbd09cfdeffa2dfb6bb4df4b862
+  checksum: f43f9b7bfa64534e6b05bd6062961681aeb406a5b53673b53b683f27fcc4e739989941836a355eef831f4478923651ecc739f4a5f6e20a76487b432bfd4db928
   languageName: node
   linkType: hard
 
