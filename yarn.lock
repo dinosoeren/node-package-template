@@ -1194,7 +1194,7 @@ __metadata:
     "@testing-library/react": ^12.0.0
     "@testing-library/react-hooks": ^8.0.1
     "@types/jest": ^27.0.0
-    "@types/node": ^16.0.0
+    "@types/node": ^18.11.11
     "@types/react": ^17.0.0
     "@types/react-dom": ^18.0.9
     "@typescript-eslint/eslint-plugin": ^4.0.0
@@ -1495,7 +1495,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^16.0.0":
+"@types/node@npm:*":
   version: 16.18.6
   resolution: "@types/node@npm:16.18.6"
   checksum: 85b6a11c347e1edfe014eb2c520aec37117152c932b632f455d4e2a71a311fb25578602c7c25f825c6f1c3e4a912506857c1aa679717318296f5590ac0d33254
@@ -1513,6 +1513,13 @@ __metadata:
   version: 14.18.34
   resolution: "@types/node@npm:14.18.34"
   checksum: 25ac3b456a0b7b82c76b37276ec86845849e8276fc81d1470a87227c105c619e299aa7165b6148aa11a4ea156b1452f6d3327935f3e7dc0067ff54dde0e3d4e0
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^18.11.11":
+  version: 18.11.11
+  resolution: "@types/node@npm:18.11.11"
+  checksum: c4b1176a8f1714a3ee3fc2a5e1d568b0cd50209000282db5c68154b3c975952928dbb834ef3a0ce55bd7b345ae29f2cbf4a34635a070294d135a24254231386a
   languageName: node
   linkType: hard
 
